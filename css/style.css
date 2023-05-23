@@ -218,7 +218,7 @@ button {
 .header_section {
     width: 100%;
     float: left;
-    background-image: url(../images/banner-bg.jpeg);
+    background-color: #faebd7;
     height: auto;
     background-size: 100%;
     padding: 10px 0px 25px 0px;
@@ -240,16 +240,12 @@ button {
     color: #272a2a;
     font-size: 18px;
 }
-.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
-    color: #15e4d0;
-}
+
 
 .navbar {
     padding: .5rem 70px;
 }
-.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
-    color: #15e4d0;
-}
+
 
 .nav-item img {
     width:20px;
@@ -260,6 +256,7 @@ button {
     width: 100%;
     float: left;
     padding-bottom: 105px;
+    background-color: #faebd7;
 }
 
 .images_1 {
@@ -305,6 +302,7 @@ button {
     background-color: #252525;
     text-align: center;
     padding: 10px 0px;
+    border-radius: 10px ;
 }
 
 .contact_bt {
@@ -321,11 +319,17 @@ button {
     background-color: #252525;
     text-align: center;
     padding: 10px 0px;
+    border-radius: 10px ;
+}
+
+.more_bt a:hover {
+    color: #252525;
+    background-color: #f6f8f8;
 }
 
 .contact_bt a:hover {
-    color: #f6f8f8;
-    background-color: #4bc5b8;
+    color: #252525;
+    background-color: #f6f8f8;
 }
 
 #main_slider .carousel-control-prev:hover,
@@ -367,6 +371,7 @@ button {
     padding-bottom: 60px;
 }
 
+
 .health_taital {
     width: 100%;
     float: left;
@@ -380,7 +385,7 @@ button {
     float: left;
     font-size: 16px;
     color: #252525;
-    margin: 0px;
+    margin: 0px;    
 }
 
 .health_section_2 {
@@ -404,6 +409,7 @@ button {
     z-index: -1;
     margin: 0 auto;
     top: -40px;
+    border-radius: 10px ;
 }
 
 .main {
@@ -411,6 +417,7 @@ button {
     margin: 40px 0px 0px 40px;
     box-shadow: 0px 0px 14px 2px #faebd7;
     position: relative;
+    background-color: #FAEBD7;
 }
 
 .image {
@@ -419,6 +426,8 @@ button {
     width: 100%;
     height: auto;
     backface-visibility: hidden;
+    border-radius: 10px ;
+
 }
 
 .middle {
@@ -430,10 +439,6 @@ button {
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     text-align: center;
-}
-
-.image_main:hover .image {
-    background-color: rgba(27, 236, 222, 0.5);
 }
 
 .image_main:hover .middle {
@@ -453,9 +458,6 @@ button {
     position: relative;
 }
 
-.image_main_1:hover .image {
-    background-color: rgba(27, 236, 222, 0.5);
-}
 
 .image_main_1:hover .middle {
     opacity: 1;
@@ -470,16 +472,18 @@ button {
 .getquote_bt_1 a {
     width: 100%;
     float: left;
-    font-size: 17px;
+    font-size: 16px;
     color: #ffffff;
     background-color: #252525;
     padding: 7px 0px;
     text-align: center;
+    border-radius: 10px ;
 }
 
 .getquote_bt_1 a:hover {
-    background-color: #252525;
-}
+        color: #252525;
+        background-color: #f6f8f8;
+    }
 
 
 @keyframes fadeEffect {
@@ -561,22 +565,24 @@ button {
 .getquote_bt a {
     width: 100%;
     float: left;
-    font-size: 18px;
+    font-size: 16px;
     color: #ffffff;
     background-color: #252525;
     padding: 7px 0px;
     text-align: center;
     margin-top: 50px;
+    border-radius: 10px;
 }
 
 .getquote_bt a:hover {
-    background-color: #252525;
-}
+        color: #252525;
+        background-color: #f6f8f8;
+    }
 
 .contact_section {
     width: 100%;
     float: left;
-    background-image: url(../images/banner-bg.jpeg);
+    background-color: #faebd7;
     background-size: 100%;
     background-repeat: no-repeat;
     padding-bottom: 150px;
@@ -598,13 +604,13 @@ button {
     align-items:center;
 }
 
-.icon_7 {
-    width: 3.5rem;
-    height:3.5rem;
+.icon_7 img {
+    width: 50px;
+    height: 50px;
     margin:0px 20px;
     float: left;
     display:flex;
-    align-items:Center;
+    align-items: center;
 }
 
 .contact_text {
@@ -622,7 +628,14 @@ button {
     background-color: rgb(240, 240, 240);
     height: auto;
     padding: 30px;
+    border-radius: 10px;
+    border:0.5px solid black;
 }
+
+.contact_box a {
+    border-radius: 10px;
+}
+
 
 .book_text {
     width: 100%;
@@ -676,7 +689,10 @@ button {
 
 .send_bt a:hover {
     background-color: #252525;
+    color:#f6f8f8
 }
+
+
 
 .distracted_text {
     width: 100%;
@@ -793,6 +809,7 @@ button {
     padding: 7px 10px;
     margin-top: 10px;
     border: 1px solid #cfcfd0;
+    border-radius: 10px;
 }
 
 input.Enter_text::placeholder {
@@ -814,6 +831,7 @@ input.Enter_text::placeholder {
     text-align: center;
     padding: 7px 0px;
     text-transform: uppercase;
+    border-radius: 10px;
 }
 
 .social_icon {
