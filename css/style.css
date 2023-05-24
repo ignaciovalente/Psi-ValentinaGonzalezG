@@ -156,7 +156,7 @@ img {
     height: auto;
 }
 
- :focus {
+:focus {
     outline: 0;
 }
 
@@ -242,10 +242,15 @@ button {
 }
 
 
+div#navbarSupportedContent {
+    display:inline;
+    justify-content:center;
+    align-items: center;
+    }
+
 .navbar {
     padding: .5rem 70px;
 }
-
 
 .nav-item img {
     width:20px;
@@ -458,7 +463,6 @@ button {
     position: relative;
 }
 
-
 .image_main_1:hover .middle {
     opacity: 1;
 }
@@ -525,6 +529,41 @@ button {
     background-color: #faebd7;
 }
 
+.box_main1 {
+    width: 100%;
+    float: left;
+    background-color: #8fb9c2;
+    height: 250px;
+    border-radius: 15px;
+    padding: 30px;
+    margin-block-end: 20px;
+}
+
+.box_main1:hover {
+    background-color: #faebd7;
+}
+
+.box_main1.active {
+    background-color: #faebd7;
+}
+
+.blog_text {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    display: block;
+    color: #252525;
+    line-height: 25px;
+    padding-bottom: 40px;
+}
+
+h4.blog_text {
+    font-size: 15px;
+    margin: auto;
+}
+
 .icon_1 {
     width: 100%;
     float: left;
@@ -555,6 +594,7 @@ button {
     line-height: 30px;
     padding-bottom: 40px;
 }
+
 
 .getquote_bt {
     width: 180px;
@@ -636,7 +676,6 @@ button {
     border-radius: 10px;
 }
 
-
 .book_text {
     width: 100%;
     float: left;
@@ -692,8 +731,6 @@ button {
     color:#f6f8f8
 }
 
-
-
 .distracted_text {
     width: 100%;
     float: left;
@@ -715,14 +752,6 @@ button {
     width: 100%;
     float: left;
     padding-top: 20px;
-}
-
-#my_slider .carousel-control-prev:hover,
-#my_slider .carousel-control-next:hover,
-#my_slider .carousel-control-prev:focus,
-#my_slider .carousel-control-next:focus {
-    background-color: #19e9d9;
-    color: #ffffff;
 }
 
 #my_slider a.carousel-control-next {
