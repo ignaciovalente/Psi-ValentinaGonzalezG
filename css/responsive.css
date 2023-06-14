@@ -193,7 +193,7 @@
     }
     .navbar-light .navbar-nav .nav-link:focus,
     .navbar-light .navbar-nav .nav-link:hover {
-        color: #15e4d0;
+        color: black;
     }
     .nav-link {
         display: none;
@@ -329,7 +329,7 @@
         width: 50%;
     }
     .costum_menu {
-        display: none;
+        display: flex;
     }
     .navbar-expand-lg .navbar-nav .nav-link {
         display: block;
@@ -338,7 +338,7 @@
     }
     .navbar-light .navbar-nav .nav-link:focus,
     .navbar-light .navbar-nav .nav-link:hover {
-        color: #15e4d0;
+        color: #faebd7;
     }
     .nav-link {
         display: none;
